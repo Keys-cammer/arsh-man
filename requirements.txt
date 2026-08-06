@@ -1,0 +1,8 @@
+numpy>=1.24,<2.0
+opencv-python>=4.8
+# Pinned, not a floor: mediapipe dropped the legacy mp.solutions namespace
+# somewhere after 0.10.21 (0.10.35 and 1.0.0 ship only Image/ImageFormat/tasks),
+# and this program is built on mp.solutions.hands. 0.10.21 is the newest
+# version verified to still expose it.
+mediapipe==0.10.21
+open3d>=0.17

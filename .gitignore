@@ -1,0 +1,22 @@
+# virtualenv
+venv/
+.venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# local tooling config - contains machine-specific absolute paths
+.claude/
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# os
+Thumbs.db
+desktop.ini
+.DS_Store
